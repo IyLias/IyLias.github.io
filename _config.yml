@@ -37,13 +37,13 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/me1.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                <Jin> <lastname>
-  email:               <mail@domain.tld>
+  email:               <iliaskyrin9707@gmail.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
