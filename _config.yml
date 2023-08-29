@@ -421,3 +421,8 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+
+
+search: true
+search_full_content: true
