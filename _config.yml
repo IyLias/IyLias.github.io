@@ -47,6 +47,8 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
+  avatar: /assets/img/blog/me1.jpg
+
 # Add links to the sidebar.
 menu:
   - title:             About
