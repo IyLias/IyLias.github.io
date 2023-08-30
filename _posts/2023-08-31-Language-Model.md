@@ -2,7 +2,7 @@
 layout: post
 title:  "basics of NLP: Language Model"
 date:   2023-08-31 
-categories: ["NLP"]
+categories: NLP
 ---
 
 
