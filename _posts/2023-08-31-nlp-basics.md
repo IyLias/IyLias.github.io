@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "basics of NLP: Text Preprocessing"
+date:   2023-08-31 
+categories: ["NLP"]
+---
 
 To use texts as we want, we need Text Preprocessing. <br>
 Let's take a look some processes. 
