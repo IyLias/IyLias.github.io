@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "First Step of Jintionary"
 date:   2023-08-27 
-categories: [Blog]
+categories: [blog]
 ---
 
 
