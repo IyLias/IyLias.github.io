@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "basics of NLP: Feature Extraction"
 date:   2023-09-01 
-categories: NLP
+categories: [NLP]
 ---
 
 
