@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "basics of NLP: Text Preprocessing"
 date:   2023-08-31 
-categories: NLP
+categories: [NLP]
 ---
 
 To use texts as we want, we need Text Preprocessing. <br>
