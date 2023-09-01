@@ -428,3 +428,5 @@ jekyll_compose:
 
 search: true
 search_full_content: true
+
+category_list: [Blog, Chess, NLP, Computer-Vision, Math]
