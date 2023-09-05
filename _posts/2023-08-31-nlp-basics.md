@@ -53,7 +53,8 @@ PoS tagging refers to the process of tagging words within sentences into their r
 
 ## Stemming
 
-The process for extracting "Stem". 
+The process for extracting "Stem". <br>
+More specifically, "Stemming" means that the process of restoring the original form of a word.
 
 Stem(어간): 단어의 의미를 담고 있는 단어의 핵심 부분 
 
