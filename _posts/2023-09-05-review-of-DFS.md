@@ -23,7 +23,7 @@ What is needed for a more efficient implementation?
 
 Here's sample code for searching area using DFS. <br>
 
-Exploration is carried out in all 9 directions from each point, continuing the search until the end of the area is reached.
+Exploration is carried out in all 8 directions from each point, continuing the search until the end of the area is reached.
 
 
 
@@ -31,7 +31,7 @@ Exploration is carried out in all 9 directions from each point, continuing the s
 
 int myMap[MAXNUM+1][MAXNUM+1];
 bool visited[MAXNUM+1][MAXNUM+1];
-int dir[8][2] = {{-1,-1},{-1,0},{-1,1},{0,1},{1,1},{1,0},{1,-1},{0,-1}};
+int dir[8][2] = { {-1,-1},{-1,0},{-1,1},{0,1},{1,1},{1,0},{1,-1},{0,-1} };
 int island=0;
 
 void search(int r,int c,int w,int h){
