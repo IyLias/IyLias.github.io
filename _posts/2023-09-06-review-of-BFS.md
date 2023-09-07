@@ -12,8 +12,13 @@ First, let's consider what BFS is.
 
 Breadth First Search, or BFS, is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
 
-Extra memory, <U>***usually a queue***</U>, is needed to keep track of the child nodes that were encountered but not yet explored.
+Extra memory, <U>usually a queue</U>, is needed to keep track of the child nodes that were encountered but not yet explored.
 
+
+
+<br>
+
+## Pseudocode of BFS
 
 Here's pseudocode from wiki.
 
@@ -34,8 +39,14 @@ Here's pseudocode from wiki.
 ```
 
 
+<br>
+
+
+## My Imagination and Image of BFS
+
 
 It starts from one point and spreads in all directions at the same distance. This process is repeated to check if it reaches the destination.
 
 When we want to search the shortest distance, we can consider BFS.
+
 
