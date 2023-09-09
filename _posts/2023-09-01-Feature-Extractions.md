@@ -98,13 +98,20 @@ print(df['language'])
     The output of this model for a set of text documents is a matrix. Each column of the matrix represents a word from the vocabulary and each row corresponds to one of these text documents.
 
 
+<br><br>
+
 
 * TF-IDF : Term Frequency-Inverse Document Frequency
 
     BoW model has a severe drawback. The frequency of occurrence of a token does not fully represent how much information it carries about a document.
 
-    This is because a term occurring multiple times in many documents does not convey much information. Rare terms can carry much more information about the documents they are present in.
+    <U>This is because a term occurring multiple times in many documents does not convey much information. Rare terms can carry much more information about the documents they are present in. </U>
 
     TF-IDF is a method of representing text data in a matrix format using numbers that quantify how much information these terms carry in the given documents.
 
-    
+    Rarely occurring terms are more informative than frequently occurring general terms. To account for this, we need to multiply another factor T. This factor denotes how specific a term is to a given document. This is called the <U>Inverse Document Frequency.(IDF)</U>
+
+
+
+
+
