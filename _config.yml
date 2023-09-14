@@ -429,4 +429,4 @@ jekyll_compose:
 search: true
 search_full_content: true
 
-category_list: [blog, chess, nlp, jekyll, computervision, math, algorithm]
+category_list: [blog, chess, nlp, jekyll, computervision, math, algorithm, GAN]
