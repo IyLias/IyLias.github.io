@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+use_math: true
 title:  "Generative Modeling"
 date:   2023-09-15 
 categories: [gan]
