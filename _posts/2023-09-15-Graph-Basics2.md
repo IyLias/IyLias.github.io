@@ -6,20 +6,58 @@ date:   2023-09-15
 categories: [math]
 ---
 
-Let's start at some vertex u of a graph G.
+Let's start at some vertex $u$ of a graph $G$.
 
 ## Walk
 
-If we proceed from u to a neighbor of u and then to a neighbor of that vertex and so on, until we finally come to a stop at a vertex v, then we have just described a walk from u to v in G. 
+If we proceed from $u$ to a neighbor of $u$ and then to a neighbor of that vertex and so on, until we finally come to a stop at a vertex $v$, then we have just described a walk from $u$ to $v$ in $G$. 
 
-u-v walk W in G is a sequence of vertices in G, beginning with u and ending at v such that consecutive vertices in the sequence are adjacent. 
+$u$-$v$ walk $W$ in $G$ is a sequence of vertices in $G$, beginning with $u$ and ending at $v$ such that consecutive vertices in the sequence are adjacent. 
 
-W = (u=$v_0$, $v_1$, ..., $v_k$=v)
+$W$ = (u=$v_0$, $v_1$, ..., $v_k$=v)
 
 
-* If u-v, then the walk W is <U>closed</U>, while if $u \ne v$, then W is <U>open</U>.
+* If $u$-$v$, then the walk $W$ is <U>closed</U>, while if $u \ne v$, then W is <U>open</U>.
 
 * The number of edges encountered in a walk(including multiple occurrences of an edge) is called the <U>length of the walk</U>.
+
+
+<br>
+
+## Trail
+
+$u$-$v$ $trail$ in graph $G$ to be a $u$-$v$ $walk$ in which no edge is traversed more than once.
+
+
+<br>
+
+## Path
+
+$u$-$v$ $walk$ in a graph in which no vertices are repeated is a $u$-$v$ $path$.
+
+<B> Every Path is a Trail </B>
+
+
+
+<br>
+
+## Circuit 
+
+A $circuit$ in a graph $G$ is a closed trail of length 3 or more.
+Hence a circuit begins and ends at the same vertex but repeats no edges.
+
+
+<br>
+
+
+## Cycle
+
+A $circuit$ that repeats no vertex, except for the first and last, is a $cycle$.
+
+A k-cycle is a cycle of length k.
+
+
+
 
 
 
