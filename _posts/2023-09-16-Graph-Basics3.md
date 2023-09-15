@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: true
+use_math: true
 title:  "Graph Basics: Connected Graph and Component"
-date:   2023-09-16 
+date:   2023-09-15 
 categories: [math]
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+use_math: true
 title:  "Graph Basics: walk, trail, path, circuit and cycle"
 date:   2023-09-15 
 categories: [math]
