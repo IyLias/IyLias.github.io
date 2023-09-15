@@ -3,8 +3,9 @@ layout: post
 comments: true
 title:  "Generative Modeling and Discriminative Modeling"
 date:   2023-09-14 
-categories: [GAN]
+categories: [gan]
 ---
+
 
 
 
@@ -25,3 +26,4 @@ Generative Modeling estimates the probability to find the sample.
 
 
 Discriminative Modeling estimates the probability that sample x belongs to category y.
+
