@@ -39,20 +39,20 @@ We use parametric model $p_\theta(x)$ to find proper $p_{model}(X)$.
 
 ## Likelihood
 
-The likelihood $L(\theta|x)$ estimates proper $\theta$ value when given sample point x.
+The likelihood L($\theta$|$x$) estimates proper $\theta$ value when given sample point x.
 
 So we define 
 
-$L(\theta|x)$ = $p_\theta(x)$
+L($\theta$|$x$) = $p_\theta(x)$
 
 
-When given whole dataset X with independent samples, 
+When given whole dataset $X$ with independent samples, 
 
-$L(\theta|x)$ = $\prod_{x \in X} p_\theta(x)$
+L($\theta$|$x$) = $\prod_{x \in X} p_\theta(x)$
 
 we usually use log-likelihood instead..
 
-$L(\theta|x)$ = $\sum_{x \in X} log p_\theta(x)$
+L($\theta$|$x$) = $\sum_{x \in X} log p_\theta(x)$
 
 
 <br>
@@ -63,7 +63,7 @@ $L(\theta|x)$ = $\sum_{x \in X} log p_\theta(x)$
 It is a method to find the estimate $\hat\theta$ that best describes the observed data $X$ from the parameter set theta of the probability density function $p_\theta(x)$.
 
 
-$\hat\theta$ = $argmax_\theta$  $L(\theta | X)$
+$\hat\theta$ = $argmax_\theta$  L($\theta$ | $X$)
 
 
 
@@ -77,4 +77,22 @@ Thus it assumes that each feature $x_j$ is independent from any other feature $x
 
 $p(x_j|x_k)$ = $p(x_j)$
 
+
+So for K features, we can reduce to 
+
+$p(x)$ = $\prod_{i=1}^K p(x_k)$
+
+
+Therefore, the Naive Bayes Model learns a structure from data and can use it to generate new samples that were not in the original dataset.
+
+
+But when dealing with pixel features like in computer vision, it's not proper to use. 
+
+
+
+<br><br>
+
+## Representation Learning
+
+Representation learning is a process in machine learning where algorithms extract meaningful patterns from raw data to create representations that are easier to understand and process.
 
