@@ -39,20 +39,20 @@ We use parametric model $p_\theta(x)$ to find proper $p_{model}(X)$.
 
 ## Likelihood
 
-The likelihood L($\theta$|$x$) estimates proper $\theta$ value when given sample point x.
+The likelihood $L(\theta \mid x)$ estimates proper $\theta$ value when given sample point x. 
 
 So we define 
 
-L($\theta$|$x$) = $p_\theta(x)$
+$L (\theta \mid x )$ = $p_\theta(x)$
 
 
 When given whole dataset $X$ with independent samples, 
 
-L($\theta$|$x$) = $\prod_{x \in X} p_\theta(x)$
+$L (\theta \mid x )$ = $\prod_{x \in X} p_\theta(x)$
 
 we usually use log-likelihood instead..
 
-L($\theta$|$x$) = $\sum_{x \in X} log p_\theta(x)$
+$L (\theta \mid x )$ = $\sum_{x \in X} log p_\theta(x)$
 
 
 <br>
@@ -63,8 +63,7 @@ L($\theta$|$x$) = $\sum_{x \in X} log p_\theta(x)$
 It is a method to find the estimate $\hat\theta$ that best describes the observed data $X$ from the parameter set theta of the probability density function $p_\theta(x)$.
 
 
-$\hat\theta$ = $argmax_\theta$  L($\theta$ | $X$)
-
+$\hat\theta$ = $argmax_\theta$  $L(\theta \mid X)$
 
 
 
@@ -75,7 +74,7 @@ $\hat\theta$ = $argmax_\theta$  L($\theta$ | $X$)
 It is based on applying strong independence assumptions between features.
 Thus it assumes that each feature $x_j$ is independent from any other feature $x_k$.
 
-$p(x_j|x_k)$ = $p(x_j)$
+$p (x_j \mid x_k )$ = $p (x_j)$
 
 
 So for K features, we can reduce to 
