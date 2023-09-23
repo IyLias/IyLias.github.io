@@ -50,3 +50,27 @@ It starts from one point and spreads in all directions at the same distance. Thi
 When we want to search the shortest distance, we can consider BFS.
 
 
+
+
+<br>
+
+
+## Expansion of BFS
+
+Let's think about the problem 
+
+
+> You have a map represented as an N×M matrix. In the map, 0 represents a passable path, and 1 represents an impassable wall. You want to move from the position (1, 1) to the position (N, M) while taking the shortest path. The shortest path is defined as the path that passes through the fewest number of cells in the map, including the starting and ending cells.
+
+> <U>If breaking one wall during the journey leads to a shorter path, you are allowed to break up to K walls. </U>
+
+> You can move from one cell to an adjacent cell in four directions: up, down, left, or right.
+
+> Given the map, write a program to find the shortest path.
+
+
+
+<br>
+
+If just given the map and find the shortest path, then we just use BFS to solve. But in this problem, 
+
