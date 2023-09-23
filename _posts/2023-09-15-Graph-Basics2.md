@@ -39,6 +39,30 @@ $u$-$v$ $walk$ in a graph in which no vertices are repeated is a $u$-$v$ $path$.
 <B> Every Path is a Trail </B>
 
 
+<br><br>
+
+
+
+## Distance
+
+The distance between $u$ and $v$ is the smallest length of any $u-v$ path in $G$ and is denoted by $d_G(u,v)$.
+
+Hence if $d(u,v) = k$, then there exists a $u-v$ path 
+$P = (u=v_0,v_1,...,v_k=v)$
+
+
+
+<br>
+
+## Diameter 
+
+The greatest distance between any two vertices of a connected graph G is called the 
+<U>diameter of G</U> and is denoted by $diam(G)$. 
+
+
+
+
+
 
 <br>
 
