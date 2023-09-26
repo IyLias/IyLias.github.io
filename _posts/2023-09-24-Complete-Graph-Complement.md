@@ -24,3 +24,9 @@ two distinct vertices of $K_n$ are joined by an edge, the number of pairs of ver
 <br><br>
 
 ## Complement
+
+The complement $\bar G$ of a graph $G$ is that graph whose vertex set is $V(G)$ 
+and such that for each pair $u,v$ of distinct vertices of $G$, $uv$ is an edge of $\bar G$ if and only if $uv$ is not an edge of $G$.
+
+So if $G$ is a graph of order $n$ and size $m$, then $\bar G$ is a graph of order $n$ and 
+size $\binom{n}{2} - m$
