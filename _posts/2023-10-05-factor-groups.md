@@ -16,3 +16,8 @@ Let $\phi: G$ -> $G'$ be a group homomorphism with kernel $H$. Then the cosets o
 
 
 
+<br>
+
+So factor group is a group with elements which are cosets of $G$. 
+<br>Factor Group은 Coset들을 원소로 하고 그들을 연산으로 하는 Group 이다. 
+
