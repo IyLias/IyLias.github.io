@@ -47,7 +47,7 @@ Now we turn to properties of Homomorphisms.
 
 ## Definition: Image and Inverse Image
 
-Let $\phi$ be a mapping of a set $X$ into a set $Y$, and let $A \sube X$ and $B \sube Y$. The $image$ $\phi[A]$ of $A$ in $Y$ under $\phi$ is $\{ \phi(a)\mid a \in A \}$.
+Let $\phi$ be a mapping of a set $X$ into a set $Y$, and let $A$ $\sube$ $X$ and $B$ $\sube$ $Y$. The $image$ $\phi[A]$ of $A$ in $Y$ under $\phi$ is $\{ \phi(a)\mid a \in A \}$.
 The set $\phi[X]$ is the $range$ of $\phi$. The $inverse$ $image$ $\phi^{-1}[B]$ of $B$ in $X$ is $ \{ x \in X \mid \phi(x) \in B \}$
 
 
